@@ -9,7 +9,7 @@ type Triangle struct {
 	X, Y, Z int
 }
 
-// start OMIT
+// MarshalJSON starts OMIT
 func (t *Triangle) MarshalJSON() ([]byte, error) {
 	return json.Marshal(struct {
 		X, Y, Z int

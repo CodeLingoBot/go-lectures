@@ -24,7 +24,7 @@ type Triangle struct {
 
 // end types OMIT
 
-// start methods OMIT
+// Area starts methods OMIT
 func (r *Rectangle) Area() float64 {
 	return float64(r.X * r.Y)
 }
